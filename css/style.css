@@ -142,7 +142,7 @@ nav {
 }
 
 .portfolio-menu ul li {
-    display: inline-block;
+    display:inline-block;
     font-size: 2rem;
     font-family: sans-serif;
     font-weight: bold;
@@ -341,6 +341,7 @@ footer {
         width: 100%;
         text-align: center;
         left: -100%;
+        transition: .4s ease-in-out;
         margin-bottom: 1rem;
     }
     .mobile-icon{
@@ -383,6 +384,7 @@ footer {
 @media(max-width: 899px){
     .f-contact{
         flex-direction: column;
+        padding: 1rem;
     }
     .f-contact .child-div{
         padding: 2rem;
@@ -393,9 +395,10 @@ footer {
 }
 
 @media(max-width: 767px){
- /* .portfolio-item div{
-  margin-left: 3rem;
- } */
+.member-card{
+    width: 100%;
+    padding: 2rem;
+}
    
 }
 @media(max-width: 840px){
@@ -426,9 +429,9 @@ footer {
     .news-letter div button{
        position: fixed;
     }
-    .filter-gallery{
-        padding: 2rem 15rem;
-    }
+    /* .filter-gallery{
+        padding: 2rem 10rem;
+    } */
   
    
 }
@@ -455,6 +458,11 @@ footer {
 }
 @media(max-width: 385px){
    .filter-gallery{
-    padding: 2rem 2.5rem;
+    padding: 2rem 6rem;
+   }
+}
+@media(max-width: 330px){
+   .filter-gallery{
+    padding: 2rem 4rem;
    }
 }
